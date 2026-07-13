@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "continuity_systems": [
+    {
+      "name": "owlbox-compatible",
+      "detect_all": [
+        "OUTLINE.md",
+        "WISDOM.md",
+        "LEGACY.md"
+      ],
+      "before_substantial_work": [
+        "inspect all detected files",
+        "reconcile with live evidence"
+      ],
+      "after_substantial_work": [
+        "maintain files according to project rules"
+      ],
+      "owned_by_badass": false
+    }
+  ],
+  "without_continuity": {
+    "short_disposable_work": "allowed",
+    "sustained_work": "unsupported",
+    "reason": "continuity depends on temporary assistant working memory"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "claim_states": [
+    "verified",
+    "inferred",
+    "unknown"
+  ],
+  "evidence_types": {
+    "direct_live": {
+      "strength": 3
+    },
+    "direct_recorded": {
+      "strength": 2
+    },
+    "indirect": {
+      "strength": 1
+    },
+    "memory_or_cache": {
+      "strength": 0
+    }
+  },
+  "rules": [
+    "verified claims require direct evidence",
+    "inference identifies supporting evidence",
+    "unknown remains unknown until checked",
+    "conflicting evidence is exposed and reconciled",
+    "intent is not execution",
+    "command completion is not outcome verification"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "default": {
+    "required": [
+      "README.md",
+      "BADASS.md"
+    ],
+    "full_read_when": [
+      "constitutional change",
+      "repository restructure",
+      "release",
+      "hard-failure recovery"
+    ]
+  },
+  "operations": {
+    "governance_change": {
+      "required": [
+        "BADASS.md",
+        "docs/MECHANISMS.md",
+        "control/inspection.json",
+        "control/evidence.json",
+        "control/support.json",
+        "tests/test_badass.py"
+      ]
+    },
+    "validator_change": {
+      "required": [
+        "BADASS.md",
+        "control/system.json",
+        "control/inspection.json",
+        "control/evidence.json",
+        "control/support.json",
+        "scripts/badass.py",
+        "tests/test_badass.py"
+      ]
+    },
+    "project_work": {
+      "required": [],
+      "discover_continuity": true,
+      "inspect_live_state": true
+    },
+    "release": {
+      "required": [
+        "MAP.md",
+        "LANDING_PAD.md",
+        "CHANGELOG.md",
+        "HOWTOUPDATEBADASS.md"
+      ],
+      "full_repository": true
+    }
+  },
+  "proof": {
+    "minimum": [
+      "sources inspected",
+      "conflicts identified",
+      "freshness considered"
+    ],
+    "false_claim_is_hard_failure": true
+  }
+}

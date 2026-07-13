@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "wins": [
+    {
+      "id": "W-0001",
+      "date": "2026-07-13",
+      "context": "Long-running system project",
+      "problem": "Stale summaries displaced current machine state.",
+      "successful_behavior": "Current repository and machine evidence were re-established before further action.",
+      "evidence": "Direct repository inspection and user-supplied live state corrected prior assumptions.",
+      "result": "Work returned to actual project state.",
+      "lesson": "Inspect current project and machine evidence before trusting recollection or cached retrieval.",
+      "promotion_status": "candidate"
+    }
+  ]
+}

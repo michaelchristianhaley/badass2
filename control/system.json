@@ -1,0 +1,63 @@
+{
+  "name": "BADASS 2",
+  "version": "2.0.0",
+  "canonical_files": [
+    ".editorconfig",
+    ".gitattributes",
+    ".github/workflows/validate.yml",
+    ".gitignore",
+    "BADASS.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "HOWTOUPDATEBADASS.md",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "control/evidence.json",
+    "control/inspection.json",
+    "control/support.json",
+    "control/system.json",
+    "docs/GLOSSARY.md",
+    "docs/MECHANISMS.md",
+    "docs/RECOVERY.md",
+    "scripts/badass.ps1",
+    "scripts/badass.py",
+    "tests/test_badass.py",
+    "wins/README.md",
+    "wins/wins.json"
+  ],
+  "generated_files": [
+    "MAP.md",
+    "LANDING_PAD.md"
+  ],
+  "landing_pad_exclude": [
+    "LANDING_PAD.md"
+  ],
+  "file_summaries": {
+    "README.md": "Human entry point.",
+    "BADASS.md": "Canonical constitution.",
+    "HOWTOUPDATEBADASS.md": "Safe update and release procedure.",
+    "CHANGELOG.md": "Version change record.",
+    "CONTRIBUTING.md": "Contribution contract.",
+    "SECURITY.md": "Security and integrity guidance.",
+    "LICENSE": "License notice.",
+    "MAP.md": "Generated human repository map.",
+    "LANDING_PAD.md": "Generated complete assistant-readable bundle.",
+    "control/system.json": "Repository manifest.",
+    "control/inspection.json": "Required grounding by operation.",
+    "control/evidence.json": "Evidence and claim rules.",
+    "control/support.json": "External continuity support.",
+    "docs/MECHANISMS.md": "Mechanism explanations.",
+    "docs/RECOVERY.md": "Recovery process.",
+    "docs/GLOSSARY.md": "Canonical vocabulary.",
+    "wins/README.md": "Explains wins.",
+    "wins/wins.json": "Structured wins.",
+    "scripts/badass.py": "Generator and validator.",
+    "scripts/badass.ps1": "Windows launcher.",
+    "tests/test_badass.py": "Validator tests.",
+    ".github/workflows/validate.yml": "CI gate.",
+    ".editorconfig": "Editor formatting.",
+    ".gitattributes": "Line-ending normalization.",
+    ".gitignore": "Ignored local state."
+  }
+}
